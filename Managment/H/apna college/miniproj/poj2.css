@@ -1,0 +1,52 @@
+ 
+
+#img{
+  height:50px;
+}
+
+*{
+  margin:0;
+  padding:0;
+
+}
+.main_box{
+  height:100vh;
+  background-color: beige;
+}
+#play{
+  height:50px;
+
+}
+#apple{
+  height:50px;
+}
+
+
+.btn_one{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 16px;
+  line-height:66px;
+}
+
+.sidebar_menu .logo{
+  position: absolute;
+  width: 100%;
+  line-height: 60px;
+  box-shadow: 0 0 4px rgba(255,255,255,0.5);
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  margin-top: 0;
+}
+.header li{
+  display: inline-block;
+  padding: 0 50px 50px 50 0;
+}

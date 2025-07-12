@@ -1,0 +1,29 @@
+
+.box{
+  height: 100px;
+  width: 300px;
+
+  background-color: green;
+  border:1px solid black;
+
+  animation: widthAnimate 3s ease-in 0s infinite normal;
+
+
+}
+
+@keyframes widthAnimate {
+  form{
+    width: 100px;
+    background-color: green;
+    font-size: 5px;
+    border-radius: 0px;
+  }
+  to{
+      width: 400px;
+       background-color: burlywood;
+       font-size:40px;
+       border-radius: 30px;
+  }
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="ass1.css">
+</head>
+<body>
+
+
+<script>
+  /*
+  let box = document.getElementById("box");
+
+  let newLi = document.createElement("li");
+  
+  box.appendChild(newLi);
+  let text = document.createTextNode("om");
+
+   newLi.appendChild(text);
+
+*/
+let button= document.createElement("button");
+let input = document.createElement("input");
+
+button.innerText = "click me";
+
+
+document.querySelector("body").appendChild(button);
+document.querySelector("body").appendChild(input);
+
+button.setAttribute("id","btn");
+input.setAttribute("placeholder","username");
+
+let btn = document.querySelector("#btn");
+btn.classList.add("color");
+
+
+let h1 = document.createElement("h1");
+h1.innerHTML = "<u> DOM Practice </u>";
+document.querySelector("body").append(h1);
+h1.classList.add("ser");
+
+
+</script>
+
+</body>
+</html>

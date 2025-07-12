@@ -1,0 +1,29 @@
+.div{
+  background-color: pink;
+  height:300px;
+  width:400px;
+  animation-name:color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in;
+/*
+@keyframes animatio{
+  from {
+     font-size: 20px;
+  }
+  to { font-size: 40px;}
+}
+*/
+#para{
+  color:red;
+
+}
+
+@keyframes color {
+  from{
+    background-color: cadetblue;
+  }
+  to{
+    background-color: cornflowerblue;
+  }
+}

@@ -1,0 +1,36 @@
+
+.romo{
+  height:100px;
+  width:100px;
+  border-style: dashed;
+  border:2px solid blue;
+  background-color: cornflowerblue;
+margin:0 50px;
+ font-size: 14px;
+ transition: font-size 1s 1s;
+ transition: 2s;
+}
+
+
+.romo:hover{
+  background-color: brown;
+  border-radius:50%;
+  font-size: 50px;
+}
+
+
+.poko{
+
+  height:80px;
+  width:80px;
+  border-style: dotted;
+  border:1px solid grey;
+  margin: 0 100px ;
+  background-color: burlywood;
+  transition: margin-top 2s ease-in 0.2s;
+}
+
+.poko:hover{
+     background-color: aquamarine;
+     border-radius: 50%;
+}

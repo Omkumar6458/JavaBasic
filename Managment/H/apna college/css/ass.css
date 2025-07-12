@@ -1,0 +1,69 @@
+#box1 {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: 3s;
+  transition: ease-in 2s;
+}
+
+#box1:hover {
+  width: 600px;
+  
+}
+
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: 3s;
+
+}
+
+#box2:hover{
+  margin: 200px 0 0 200px;
+  background-color: darkorchid;
+ transform:rotate(90deg);
+}
+
+
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  transition: 2s;
+
+}
+
+#box3:hover{
+  transform: skewX(20deg);
+}
+
+
+#box4 {
+  width: 100px;
+  height: 100px;
+  background: lightgreen;
+  transition: 2s;
+}
+
+#box4:hover{
+  box-shadow:rgb(11, 11, 204);
+  border-radius:50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+#myPic {
+  
+  width: 200px;
+  height: 200px;
+  background: pink;
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.4XB8NF1awQyApnQDDmBmQwHaEo&pid=Api&P=0&h=180");
+  opacity: 0.5;
+  background-size: cover;
+
+}

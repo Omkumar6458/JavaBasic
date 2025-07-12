@@ -1,0 +1,41 @@
+/*
+
+let name = prompt("write your name");
+let age = prompt("write ur age");
+
+let data = "ur name is " + name +"   and ur age is " + age;
+alert(data);
+
+*/
+
+/*
+let Months = "quater3";
+switch(Months) 
+{
+  case "quater1" :
+  console.log("jan , feb , March");
+  break;
+   
+  case "quater2" :
+  console.log("April , May, June");
+   break;
+  case "quater3" :
+  console.log("July , August , September");
+
+  break;
+
+  case "quater4" :
+  console.log("oct , nov, dec");
+  break;
+}
+*/
+
+let str ="abnsj"
+
+if(str[0] ="A" ||str[0] ="a" && str.length() >= 5)
+{
+  console.log("golden")
+}
+else{
+  console.log("not");
+}

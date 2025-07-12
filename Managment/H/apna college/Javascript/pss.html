@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+body>
+<h3><B>INPUT TEXT </B></h3>
+<p id ='p'></p>
+
+  <form action ="/action">
+    <input placeholder="userName" id="user">
+    
+    <input placeholder="password" id="pass">
+    <button>Register</button>
+  </form>
+<script>
+  
+  let form = document.querySelector("form");
+  form.addEventListener("submit",function(event)
+{
+  event.preventDefault();
+
+});
+
+
+
+
+
+
+
+
+
+  let user = document.querySelector("#user");
+
+  user.addEventListener("input",function() 
+{
+  document.getElementById('p').innerHTML = user.value;
+    
+});
+</script>
+
+</body>
+</html>

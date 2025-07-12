@@ -1,0 +1,22 @@
+p:hover
+{
+  background-color: blue;
+}
+
+button:hover{
+  background-color: yellow;
+}
+
+p:hover:nth-child(2n+1)
+{
+  background-color: yellowgreen;
+}
+
+h1::first-letter
+{
+  color:rgb(51, 0, 255);
+}
+
+#yes:checked + label {
+  color:darkgreen;
+}

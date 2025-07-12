@@ -1,0 +1,12 @@
+div{
+  height: 100px;
+  width: 500px;
+  border: 1px solid black;
+  margin:auto;
+ background-color: aqua;
+
+}
+body{
+  text-align: center;
+  margin-top: 5px;
+}

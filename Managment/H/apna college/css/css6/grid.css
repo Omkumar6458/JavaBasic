@@ -1,0 +1,29 @@
+.container{
+  height:600px;
+  width:600px;
+  background-color:rgb(198, 206, 48);
+  border-style: dotted;
+ display:grid;
+ /*grid-template-rows: 50px 50px 50px 50px;
+ grid-template-columns: auto auto auto;
+ */
+ grid-template-rows: repeat(5,1fr);
+  grid-template-columns: repeat(2,4fr);
+  row-gap: 10px;
+  column-gap: 30px;
+}
+
+.box{
+  background-color: rgb(128, 146, 12);
+  /*height:100px;
+  width:50px;
+  */
+  
+ border:1px solid black;
+  text-align: center;
+}
+
+#one{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

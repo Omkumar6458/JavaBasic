@@ -1,0 +1,17 @@
+#inner{
+height:100px;
+width:100px;
+border:2px solid;
+border-radius: 50%;
+background-color: bisque;
+color:aquamarine;
+display: inline-block;
+}
+
+#outer{
+
+margin-left:490px;
+margin-top:20px;
+display: inline-block;
+
+}
